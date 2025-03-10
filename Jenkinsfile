@@ -1,6 +1,5 @@
 pipeline {
     agent any  // Spécifie un agent générique
-
     stages {
         stage('Checkout') {
             steps {
@@ -33,7 +32,7 @@ pipeline {
             steps {
                 script {
                     withSonarQubeEnv('sonarqube') {
-                        bat "\"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn\" clean verify sonar:sonar -Dsonar.projectKey=wissal3 -Dsonar.projectName=wissal3 "
+                        bat "\"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn\" clean verify sonar:sonar -Dsonar.projectKey=P2 -Dsonar.projectName=P2 "
                     }
                 }
             }
