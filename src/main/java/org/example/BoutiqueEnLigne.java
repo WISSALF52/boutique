@@ -31,7 +31,7 @@ class Client extends Utilisateur {
 
     @Override
     public void afficherRole() {
-        System.out.println("Bienvenue client " + super.nom);
+        System.out.println("Bienvenue Client " + super.nom);
     }
 
     public String getNom() {
