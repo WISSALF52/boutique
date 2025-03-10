@@ -217,7 +217,7 @@ public class BoutiqueEnLigne {
                     System.out.print("Stock: ");
                     int stock = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.print("Catégorie0000: ");
+                    System.out.print("Catégorie: ");
                     String categorie = scanner.nextLine();
                     administrateur.ajouterProduit(produits, nom, prix, stock, categorie);
                     break;
