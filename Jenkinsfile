@@ -33,7 +33,7 @@ pipeline {
             steps {
                 script {
                     withSonarQubeEnv('sonarqube') {
-                        bat "\"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn\" clean verify sonar:sonar -Dsonar.projectKey=wissal2 -Dsonar.projectName=wissal2 "
+                        bat "\"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn\" clean verify sonar:sonar -Dsonar.projectKey=wissal3 -Dsonar.projectName=wissal3 "
                     }
                 }
             }
