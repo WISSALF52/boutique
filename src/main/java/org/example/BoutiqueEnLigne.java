@@ -48,7 +48,7 @@ class Administrateur extends Utilisateur {
 
     @Override
     public void afficherRole() {
-        System.out.println("Bienvenue Administrateur " + super.nom);
+        System.out.println("WELCOME " + super.nom);
     }
 
     public void ajouterProduit(Map<String, Produit> produits, String nom, double prix, int stock, String categorie) {
